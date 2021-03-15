@@ -23,4 +23,6 @@
   <!-- NightLight FOD -->
   <java-symbol type="bool" name="disable_fod_night_light"/>
   <java-symbol type="bool" name="config_has_Soli" />
+  <!-- Custom notification light -->
+  <java-symbol type="bool" name="config_multicolorled" />
 </resources>
