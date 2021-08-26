@@ -150,7 +150,7 @@ public class SoundTriggerService extends SystemService {
         public synchronized void onStop(UUID id) {
             SoundModelStat stat = mModelStats.get(id);
             if (stat == null) {
-                Slog.e(TAG, "error onStop(): Model " + id + " has no stats available");
+                Slog.v(TAG, "error onStop(): Model " + id + " has no stats available");
                 return;
             }
 
