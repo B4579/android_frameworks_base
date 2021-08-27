@@ -516,7 +516,7 @@ public class IntervalStats {
             final int packageToken = event.mPackageToken;
             event.mPackage = packagesTokenData.getPackageString(packageToken);
             if (event.mPackage == null) {
-                Slog.e(TAG, "Unable to parse event package " + packageToken);
+                Slog.v(TAG, "Unable to parse event package " + packageToken);
                 this.events.remove(i);
                 dataOmitted = true;
                 continue;
